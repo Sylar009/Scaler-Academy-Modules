@@ -1,7 +1,5 @@
 package syncsingleton;
 
-import singlethreaded.DBConnection;
-
 public class SyncDBConn {
     private static SyncDBConn dbConnection = null;
     private SyncDBConn() {

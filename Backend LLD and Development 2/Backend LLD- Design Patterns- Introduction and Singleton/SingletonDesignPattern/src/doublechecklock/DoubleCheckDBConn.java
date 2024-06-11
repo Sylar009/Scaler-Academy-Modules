@@ -1,7 +1,5 @@
 package doublechecklock;
 
-import syncsingleton.SyncDBConn;
-
 public class DoubleCheckDBConn {
     private static DoubleCheckDBConn dbConnection = null;
     private DoubleCheckDBConn() {
