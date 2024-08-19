@@ -16,7 +16,7 @@ async function welcomeEmailHelper
         let content = await fs.promises.readFile("welcome.html", "utf-8");
         const emailDetails = {
             to: reciverEmail,
-            from: 'sanyamlawania@gmail.com', // Change to your verified sender
+            from: 'sanyam.lawania@gmail.com', // Change to your verified sender
             subject: 'Welcome to our platform',
             text: `welcome to our platform ${name}`,
             html: replaceContent(content, name),
