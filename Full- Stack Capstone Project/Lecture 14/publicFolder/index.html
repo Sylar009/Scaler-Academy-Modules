@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web socket client</title>
+    <style>
+        .messages {
+            list-style: none;
+        }
+
+        .reciever {
+            background-color: lightgreen;
+            padding: 10px;
+            margin-left: 30px;
+            width: 50%;
+            border: 1px solid;
+        }
+
+        .sender {
+            background-color: lightgrey;
+            border: 1px solid;
+            width: 50%;
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+    <h1>Chat Demo</h1>
+    <img src="./img.jpeg" alt="">
+    <div>
+        <input type="text" class="msg">
+        <button class="send">send Message</button>
+    </div>
+    <div>
+        <input type="text" class="reciversocket">
+        <button class="addsocket">Send Private Message</button>
+    </div>
+
+    <button id="createGrp">Create Group</button>
+    <button id="joinGrp">Join Grp</button>
+    <button id="stg">Send to Group</button>
+    <button id="leave">Leave Group</button>
+    <ul class="messages"></ul>
+
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"
+        integrity="sha384-2huaZvOR9iDzHqslqwpR87isEmrfxqyWOF7hr7BY6KG0+hVKLoEXMPUJw3ynWuhO"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
