@@ -3,3 +3,4 @@ package-lock.json
 .env
 big.file
 *.file
+*.pem
