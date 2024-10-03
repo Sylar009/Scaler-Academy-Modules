@@ -15,3 +15,4 @@ This repository contains all the assignment and homework solutions solved during
 * Backend Development
 * Full-Stack Development
 * Data Engineering
+* Product Management
